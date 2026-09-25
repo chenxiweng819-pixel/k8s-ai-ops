@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 集群凭证：绝对不能提交
+uploaded-kubeconfig.yaml
+*kubeconfig*.yaml
+*kubeconfig*.yml
+
+# 审计与日志
+audit.log
+*.log
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# 内部工作文档（含真实集群 IP 与拓扑，不适合入库）
+CLUSTER-FINDINGS.md
